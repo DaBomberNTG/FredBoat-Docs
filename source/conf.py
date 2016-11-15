@@ -31,7 +31,7 @@
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.githubpages',
+#    'sphinx.ext.githubpages', # readthedocs does not support this I guess
 ]
 
 # Add any paths that contain templates here, relative to this directory.
