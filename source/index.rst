@@ -81,22 +81,6 @@ The music bot has it's own [invite link](https://discordapp.com/oauth2/authorize
 | ;;volume <0-150>             | Sets the volume                                                       |
 +------------------------------+-----------------------------------------------------------------------+
 
-| Command                    | Description                                                           | Example usage                               |
-|----------------------------|-----------------------------------------------------------------------|---------------------------------------------|
-| ;;play \<url\>             | Plays music from the given URLs. See supported sources below          | ;;play https://www.youtube.com/watch?v=dQw4w9WgXcQ     |
-| ;;list                     | Displays a list of the current songs in the playlist                  | ;;list                                      |
-| ;;nowplaying               | Displays the currently playing song                                   | ;;nowplaying                                |
-| ;;skip                     | Skip the current song. Please use in moderation                       | ;;skip                                      |
-| ;;stop                     | Stop the player and **clear** the playlist. Reserved for moderators.  | ;;stop                                      |
-| ;;pause                    | Pause the player.                                                     | ;;pause                                     |
-| ;;unpause                  | Unpause the player.                                                   | ;;unpause                                   |
-| ;;join                     | Makes the bot join your current voice channel                         | ;;join                                      |
-| ;;leave                    | Makes the bot leave the current voice channel                         | ;;leave                                     |
-| ;;repeat                   | Toggles repeat mode for the current song.                             | ;;repeat                                    |
-| ;;shuffle                  | Toggles shuffle mode for the current queue.                           | ;;shuffle                                   |
-           |
-| ;;volume                   | Changes the volume. Values are 0-150 and 100 is the default.          | ;;volume 75                                  |
-
 ----------------
  Music commands
 ----------------
