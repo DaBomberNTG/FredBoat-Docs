@@ -2,19 +2,20 @@
  Welcome to FredBoat documentation
 ===================================
 
-Welcome to the FredBoat docs. FredBoat is an open-source general-purpose bot developed in Java. The bot is based off of [JDA](https://github.com/DV8FromTheWorld/JDA) and was created by (@Frederikam). You'll be able to get a link back to this website simply by invoking `;;help`.
+Welcome to the FredBoat docs. FredBoat is an open-source general-purpose bot developed in Java. The bot is based off of `JDA <https://github.com/DV8FromTheWorld/JDA>`_ and was created by `@Frederikam <https://twitter.com/Frederikam00>`_. You'll be able to get a link back to this website simply by invoking `;;help`.
 
-Additionally I am also developing FredBoat♪♪ **which is in beta** and is a music bot. This is a seperate bot and must therefore be invited using [this link](https://discordapp.com/oauth2/authorize?&client_id=184405253028970496&scope=bot). See the commands below on how to use it.
+Additionally, I am also developing FredBoat♪♪ **which is in beta** and is a music bot. This is a seperate bot and must therefore be invited using `this link <https://discordapp.com/oauth2/authorize?&client_id=184405253028970496&scope=bot>`_. See the commands below on how to use it.
 
 --------------------
  Setting up the bot
 --------------------
-Getting FredBoat running on your server is simple. You can invite the bot by authenticating it with your account using [this](https://discordapp.com/oauth2/authorize?&client_id=168686772216135681&scope=bot) link. Bear in mind that you must have `Manage Server` permissions to be able to do this. 
+Getting FredBoat running on your server is simple. You can invite the bot by authenticating it with your account using `this link <https://discordapp.com/oauth2/authorize?&client_id=168686772216135681&scope=bot>`_. Bear in mind that you must have the "Manage Server" permission to be able to do this. 
 
 --------------------------
  Setting up the music bot
 --------------------------
-The music bot has it's own [invite link](https://discordapp.com/oauth2/authorize?&client_id=184405253028970496&scope=bot).
+The music bot has it's own 
+`invite link <https://discordapp.com/oauth2/authorize?&client_id=184405253028970496&scope=bot>`_.
 
 
 ----------
@@ -41,7 +42,7 @@ The music bot has it's own [invite link](https://discordapp.com/oauth2/authorize
 +------------------------------+-----------------------------------------------------------------------+
 | ;;mal \<search term\>        | Searched MyAnimeList for animes and users                             |
 +------------------------------+-----------------------------------------------------------------------+
-| ;;dump \<1-2000\>            | Dumps between 1 and 2000 messages to [Hastebin](http://hastebin.com/) |
+| ;;dump \<1-2000\>            | Dumps between 1 and 2000 messages to  `Hastebin <http://hastebin.com/>`_|
 +------------------------------+-----------------------------------------------------------------------+
 | ;;facedesk                   | Uploads an image                                                      |
 +------------------------------+-----------------------------------------------------------------------+
@@ -51,7 +52,7 @@ The music bot has it's own [invite link](https://discordapp.com/oauth2/authorize
 ----------------
  Music commands
 ----------------
-[(Requires the music bot)](https://discordapp.com/oauth2/authorize?&client_id=184405253028970496&scope=bot).
+(`Requires the music bot <https://discordapp.com/oauth2/authorize?&client_id=184405253028970496&scope=bot>`_).
 
 +------------------------------+-----------------------------------------------------------------------+
 | Command                      | Description                                                           |
@@ -114,13 +115,18 @@ You can then choose your song with the `;;select <number>` command.
 
 Let me know if you want other sites supported. 
 
-## (Very) Frequently Asked Questions
+-------------------------------
+  Frequently Asked Questions
+-------------------------------
 
-### How do I play music with the bot?
-Please read this fine manual. Specifically the part with the music commands.
+Question: How do I play music with the bot?
 
-### How do I add an entire playlist to the queue?
-Simply link a playlist with the following syntax:
+Answer: Please read this fine manual. Specifically the part with the music commands.
+
+
+Question: How do I add an entire playlist to the queue?
+
+Answer: Simply link a playlist with the following syntax:
 
 ```;;play <url-to-playlist>```
 
