@@ -2,7 +2,7 @@
  Welcome to FredBoat documentation
 ===================================
 
-Welcome to the FredBoat docs. FredBoat is an open-source general-purpose bot developed in Java. The bot is based off of `JDA <https://github.com/DV8FromTheWorld/JDA>`_ and was created by `@Frederikam <https://twitter.com/Frederikam00>`_. You'll be able to get a link back to this website simply by invoking `;;help`.
+Welcome to the FredBoat docs. FredBoat is an open-source general-purpose bot developed in Java. The bot is based off of `JDA <https://github.com/DV8FromTheWorld/JDA>`_ and was created by `@Frederikam <https://frederikam.com/>`_. You'll be able to get a link back to this website simply by invoking `;;help`.
 
 Additionally, I am also developing FredBoat♪♪ **which is in beta** and is a music bot. This is a seperate bot and must therefore be invited using `this link <https://discordapp.com/oauth2/authorize?&client_id=184405253028970496&scope=bot>`_. See the commands below on how to use it.
 
@@ -42,7 +42,7 @@ The music bot has it's own
 +------------------------------+-----------------------------------------------------------------------+
 | ;;mal \<search term\>        | Searched MyAnimeList for animes and users                             |
 +------------------------------+-----------------------------------------------------------------------+
-| ;;dump \<1-2000\>            | Dumps between 1 and 2000 messages to  `Hastebin <http://hastebin.com/>`_|
+| ;;dump \<1-2000\>            | Dumps up to 2000 messages to `Hastebin <http://hastebin.com/>`_       |
 +------------------------------+-----------------------------------------------------------------------+
 | ;;facedesk                   | Uploads an image                                                      |
 +------------------------------+-----------------------------------------------------------------------+
@@ -91,10 +91,13 @@ The music bot supports media from many sites and even supports playlists from si
  Adding music to the playlist
 ------------------------------
 Adding music to the playlist is pretty simple. To start playing a song, simply use the ;;play command. Here are two examples:
+
 ```
 ;;play https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ;;play rick roll
+
 ```
+
 You can either explicitly state the URL, or you can get the bot to search YouTube and give you some choices. Here's an example response:
 
 ```
@@ -113,7 +116,7 @@ You can then choose your song with the `;;select <number>` command.
 * SoundCloud (single tracks only)
 (TODO: Add remaining)
 
-Let me know if you want other sites supported. 
+Let me know if you want other sites supported by suggesting in the `suggestion channel <https://discord.gg/Rdsp666>`_ .
 
 -------------------------------
   Frequently Asked Questions
@@ -130,7 +133,7 @@ Answer: Simply link a playlist with the following syntax:
 
 ```;;play <url-to-playlist>```
 
-### How do I restrict music commands to a specific channel or role?
+Question: How do I restrict music commands to a specific channel or role?
 The bot will only listen to music commands invoked in channels it can actually **write** to. Simply override it such that the music bot can only talk in the channels you want the bot to be usable from.
 
 If you want to restrict the bot to a specific role, you can always just restrict the bot to a channel only accessible by a specific set of roles.
